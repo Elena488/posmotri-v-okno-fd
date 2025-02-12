@@ -114,13 +114,6 @@ ol {
 
 .visually-hidden {
   visibility: hidden;
-  /*position: absolute;
-  inline-size: 1px;
-  block-size: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  white-space: nowrap;*/
 } 
 
 .search-form__checkbox-list {
@@ -129,6 +122,7 @@ ol {
   border: 1px solid transparent;
   gap: 15px;
 }
+
 .search-form__pseudo-checkbox {
   display: block;
   background-color: #1b1919;
@@ -143,8 +137,6 @@ ol {
   width: 15x;
   height: 15px;
   background-color: #fff;
-  /*position: absolute;
-  inset: 1px 1px 1px 1px;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,7 +147,6 @@ ol {
 input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
   visibility: visible;
 }
-
 
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
@@ -250,7 +241,6 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
   width: 390px;
   display: flex;
   justify-content: space-between;
-  
 }
 
 .content__card-link_current {
