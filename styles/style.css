@@ -285,7 +285,7 @@ ol {
   display: inline-block;
   width: 100%;
   line-height: 100%; /* 30px */
-  margin-bottom: 6px;
+  margin-bottom: -2px;
   color: #fff;
   font-family: Oswald, sans-serif;
   font-size: 30px;
@@ -295,7 +295,6 @@ ol {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  margin-bottom: -2px;
 }
 
 .content__video-card-description {
