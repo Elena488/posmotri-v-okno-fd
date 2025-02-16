@@ -58,6 +58,7 @@ ol {
 .result__video-container {
   margin-bottom: 10px;
   margin-top: 10.97%;
+  position: relative; 
 }
 
 .result__video {
@@ -227,6 +228,7 @@ ol {
   height: 298px;
   overflow-y: auto;
   width: 100%;
+  position: relative; 
 }
 
 .content__list {
@@ -282,10 +284,9 @@ ol {
 }
 
 .content__video-card-title {
-  display: inline-block;
   width: 100%;
   line-height: 100%; /* 30px */
-  margin-bottom: -2px;
+  margin-bottom: 6px;
   color: #fff;
   font-family: Oswald, sans-serif;
   font-size: 30px;
@@ -298,7 +299,6 @@ ol {
 }
 
 .content__video-card-description {
-  display: inline-block;
   width: 100%;
   color: #fff;
   font-family: inherit;
